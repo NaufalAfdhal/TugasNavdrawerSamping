@@ -1,0 +1,29 @@
+<!-- res/layout/nav_header_main.xml -->
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="160dp"
+    android:background="#D3D3D3">
+
+    <!-- Your profile picture or icon -->
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/imageViewProfile"
+        style="@style/circular"
+        android:layout_width="102dp"
+        android:layout_height="76dp"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/max_pecel_lele" />
+
+    <!-- User name or other information -->
+    <TextView
+        android:id="@+id/textViewUsername"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Naufal Afdhal Haryda"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        android:layout_below="@id/imageViewProfile"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"/>
+</RelativeLayout>
